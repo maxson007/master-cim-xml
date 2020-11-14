@@ -16,9 +16,9 @@ XML1
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE CV SYSTEM "CV.dtd"> 
 <CV>
-    <introduction></introduction>
-    <loisirs></loisirs>
-    <reference></reference> 
+    <introduction> </introduction>
+    <loisirs> </loisirs>
+    <reference> </reference> 
 </CV>
 ```
 XML2
@@ -26,10 +26,10 @@ XML2
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?> <!DOCTYPE CV SYSTEM "CV.dtd">
 <CV>
-    <introduction></introduction>
-    <loisirs></loisirs>
-    <reference></reference>
-    <reference></reference> 
+    <introduction> </introduction>
+    <loisirs> </loisirs>
+    <reference> </reference>
+    <reference> </reference> 
 </CV>
 ```
 ## Le Ttype MIXED
@@ -67,13 +67,13 @@ Voici un code XML valide
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE CV SYSTEM "CV.dtd"> 
 <CV>
-    <introduction></introduction>
-    <formation></formation>
-    <experience></experience>
-    <formation></formation>
+    <introduction> </introduction>
+    <formation> </formation>
+    <experience> </experience>
+    <formation> </formation>
     <loisirs>Je suis le contenu de l'élément... </loisirs>
-    <reference></reference>
-    <reference></reference>
+    <reference> </reference>
+    <reference> </reference>
 </CV>
 ```
 

@@ -14,8 +14,8 @@ directement sous cet élément (les éléments fils).
  - **EMPTY** : l’élément n’a pas de contenu ; il est donc vide. Il peut cependant avoir des attributs.
  - **ANY** : l’élément peut contenir n’importe quel élément présent dans la DTD.
  - **(#PCDATA)** : l’élément contient du texte. Le caractère # est là pour éviter toute ambiguïté
-avec une balise et indique au parseur qu’il s’agit d’un mot-clé. PCDATA signifie
-Parsable Character DATA.
+avec une balise et indique au parseur qu’il s’agit d’un mot-clé. **PCDATA** signifie
+_Parsable Character DATA_.
  - Un élément placé entre parenthèses comme (nom_element). 
    * Le nom d’un élément désigne une référence vers un élément décrit dans une autre partie de la DTD
  - Un ensemble d’éléments séparés par des opérateurs, le tout placé entre parenthèses.

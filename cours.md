@@ -1,4 +1,4 @@
-# Cours personnel Issue du livr e XML
+# Cours personnel DTD du livre XML
 
 ## La définition d’un élément
 
@@ -89,3 +89,44 @@ Lorsqu’il n’y a pas d’opérateur, la quantification est de 1 (donc toujour
  chaque élément, étant un groupe d’éléments
  où l’élément _**auteur**_, est optionnel 
  et l’élément **_chapitre_** est présent en un seul exemplaire.
+ 
+ ## La définition d’un attribut
+ Les attributs sont précisés dans l’instruction **ATTLIST**. 
+ Cette dernière, étant indépendante de l’instruction **ELEMENT**,
+ on précise à nouveau le nom de l’élément sur lequel s’applique le ou les attributs. 
+ On peut considérer qu’il existe cette forme syntaxique :
+ `nom TYPE OBLIGATION VALEUR_PAR_DEFAUT`
+ 
+ ### Le **_TYPE_** peut être principalement :
+ * CDATA : du texte (Character Data) ;
+ * ID : un identifiant unique (combinaison de chiffres et de lettres) ;
+ * IDREF : une référence vers un ID ;
+ * IDREFS : une liste de références vers des ID (séparation par un blanc) ;
+ * NMTOKEN : un mot (donc pas de blanc) ;
+ * NMTOKENS : une liste de mots (séparation par un blanc) ;
+ * Une énumération de valeurs : chaque valeur est séparée par le caractère |.
+ 
+ ### L’_**OBLIGATION**_ ne concerne pas les énumérations qui sont suivies d’une valeur par défaut.
+ Dans les autres cas, on l’exprime ainsi :
+ * '**#REQUIRED**' : attribut obligatoire.
+ * '**#IMPLIED**' : attribut optionnel.
+ * '**#FIXED**' : attribut toujours présent avec une valeur. Cela peut servir, par exemple, à
+ imposer la présence d’un espace de noms.
+ 
+ La _**VALEUR_PAR_DEFAUT**_ est présente pour l’énumération ou lorsque la valeur est typée avec
+ '#IMPLIED' ou '#FIXED'.
+ 
+ **Quelques exemples :**
+ ```dtd
+ <!ATTLIST chapitre
+ titre CDATA #REQUIRED
+ auteur CDATA #IMPLIED>
+ ```
+ L’élément **_chapitre_** possède ici un attribut **_titre_** obligatoire 
+ et un attribut **auteur** optionnel.
+```dtd
+ <!ATTLIST crayon
+ couleur (rouge|vert|bleu) "bleu">
+ ```
+ L’élément _**crayon**_ possède un attribut **_couleur_** dont 
+ les valeurs font partie de l’ensemble **rouge**, **vert**, **bleu**.

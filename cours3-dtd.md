@@ -149,3 +149,52 @@ Dans la forme **externe**, on se retrouve avec le même principe qu’avec l’i
 
 `<!ENTITY nom SYSTEM "unTexte.txt">` 
 L’entité nom est ici liée au contenu du fichier _unTexte.txt_.
+
+Les entités ne s’appliquent pas uniquement au document XML. Elles peuvent également
+servir à la réalisation de la DTD pour limiter les répétitions de blocs de définition (par
+exemple, un attribut présent dans plusieurs éléments). Cette forme d’entité est appelée
+entité paramétrique et doit être déclarée suivant la syntaxe :
+`<!ENTITY % nom "VALEUR">`
+L’instruction `%nom;` sert à utiliser une entité paramétrique dans la DTD.
+>**Remarque**
+>
+>Attention à ne pas confondre les caractères & et %.
+
+**Exemple :**
+```dtd
+<!ENTITY % type_defaut "CDATA">
+<!ATTLIST chapitre
+titre %type_defaut; #REQUIRED>
+```
+
+Dans cet exemple, nous avons créé une entité paramétrique _**type_defaut**_ qui est associée à
+un type _**(CDATA)**_ pour un attribut. Cette valeur est ensuite employée pour définir le typage
+de l’attribut **_titre_** de l’élément _**chapitre**_.
+
+
+Grâce aux entités paramétriques, il est également possible d’activer ou de désactiver des
+blocs de définition. Ces blocs suivent la syntaxe suivante :
+```dtd
+<![Valeur[
+Partie de DTD
+]]>
+```
+
+Si Valeur vaut **INCLUDE** alors la partie de DTD est activée. Si Valeur vaut **IGNORE** cette partie
+est ignorée.
+
+**Exemple :**
+```dtd
+<!ENTITY % anglais 'INCLUDE'>
+<![%anglais;[
+<!ATTLIST chapitre
+langue (anglais|français) "français">
+]]>
+```
+Dans cet exemple, on définit un attribut _**langue**_ pour un élément _**chapitre**_ uniquement si
+l’entité paramétrique **_anglais_** a la valeur _**INCLUDE**_.
+
+>**Remarque**
+>
+>Il est possible d’utiliser plusieurs instructions ATTLIST pour un même élément, le parseur effectuant la
+>synthèse de tous les attributs définis.

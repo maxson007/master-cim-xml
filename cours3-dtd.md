@@ -133,3 +133,19 @@ Lorsqu’il n’y a pas d’opérateur, la quantification est de 1 (donc toujour
  
  
  ## La définition d’une entité
+ 
+ Les entités sont déclarées par l’instruction **ENTITY**. Comme nous l’avons abordé dans le
+ chapitre précédent, l’entité associe un nom à une valeur. Ce nom est employé dans le document
+ XML comme une forme d’alias ou de raccourci vers la valeur suivant la syntaxe
+` &nom;`. La valeur d’une entité peut être **interne** ou **externe**.
+ Dans la forme **interne** la syntaxe pour déclarer une entité est simplement la suivante :
+` <!ENTITY nom "VALEUR">`
+
+Dans la forme **externe**, on se retrouve avec le même principe qu’avec l’instruction
+**DOCTYPE** en tête du document XML assurant le lien vers une DTD. Les mots-clés
+**SYSTEM** et **PUBLIC** servent donc à réaliser un lien vers une valeur présente dans un fichier.
+
+**Exemple :**
+
+`<!ENTITY nom SYSTEM "unTexte.txt">` 
+L’entité nom est ici liée au contenu du fichier _unTexte.txt_.

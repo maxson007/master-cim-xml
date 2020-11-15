@@ -145,9 +145,10 @@ ou dans un fichier différent (DTD externe).
 ```xml
 <?xml version="1.0" standalone="yes"?> 
 <!DOCTYPE hello [<!ELEMENT helo (#PCDATA)>l ]>
+```
 
+```xml
 <hello> Hello XML et hello chère lectrice! </hello>
-
 ```
 
 Dans cette exemple, dans le bloc <!DOCTYPE ....>, 
@@ -172,7 +173,7 @@ Voici la syntaxe :
   Elle décrit en principe la structure générale d’une classe de document.
 
 **Exemple :**
-```dtd
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE note SYSTEM "Note.dtd">
 <note>

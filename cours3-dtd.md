@@ -1,4 +1,4 @@
-# Cours personnel DTD du livre XML
+# Cours [EYROLLES] XML Cours Et Exercices
 
 ## La définition d’un élément
 

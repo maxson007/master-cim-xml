@@ -164,7 +164,7 @@ note (1|2|3|4|5|6|7|8|9|10) "5"
 ```
 
 Voici un XML valide :
-```dtd
+```xml
 <?xml version="1.0"?>
 <!DOCTYPE journalseance SYSTEM "etml.dtd">
 <journalseance>

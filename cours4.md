@@ -235,13 +235,21 @@ Ma réponse :
 <distance unites="miles" ville_depart="paris" ville_arrivee="borara"/>
 ```
 
+### Question sur le cours : 
+Difference en CDATA Et PCDATA ?
+* PCDATA : la chaine de caractères sera analysé avec un **parser** et les balisages seront reconnu.
+* CDATA: la chaine de caractères **ne sera pas analysé** avec un parser et les balises seront considérées comme une chaine de caractère.
+
 
 ## Exercice
 Informations qu’on souhaite associer à une séance d’entrainement :
 * **Date** : la date et l’heure de la séance d’entrainement ;
 * **Type** : le type de séance (course, nage, vélo, etc.)
-* **Rythme** cardiaque : le rythme cardiaque moyen enregistré au cours de la séance d’entrainement ; 
+* **Rythme cardiaque** : le rythme cardiaque moyen enregistré au cours de la séance d’entrainement ; 
 * **Durée** : la durée de la séance d’entrainement ;
 * **Distance** : la distance couverte pendant la séance d’entrainement (mesurée en kilomètres, mètres ou en miles) ; 
 * **Lieu** : le lieu de la séance d’entrainement ;
 * **Commentaires** : remarques générales sur la séance d’entrainement.
+
+Modéliser la seance d'entrainement avec DTD.
+

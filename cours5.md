@@ -30,6 +30,8 @@ unite (kilometre, metre,miles) "miles"
 <!ELEMENT lieu (#PCDATA)>
 <!ELEMENT commentaires (#PCDATA)>
 ```
+> Ma réponse est correcte mais il manque l'élément racine
+> de même que les autres solutions proposer par les étudiants
 
 Réponse étudiant 1 :
 ```dtd

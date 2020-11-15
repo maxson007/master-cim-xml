@@ -32,7 +32,7 @@ XML2
     <reference> </reference> 
 </CV>
 ```
-## Le Ttype MIXED
+## Le type MIXED
 Nous allons voir maintenant le type MIXED. Pour rappel, voici la syntaxe de la déclaration des éléments dans une DTD :
 `<!ELEMENT nomElement Type> `
 

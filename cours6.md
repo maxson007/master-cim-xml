@@ -112,6 +112,7 @@ elementFormDefault="qualified" >
 </xs:element>
 </xs:schema>
 ```
+> Correct
 
 Solution Étudiant 2 : 
 
@@ -132,6 +133,8 @@ Solution Étudiant 2 :
     </xs:element>
 </xs:schema>
 ```
+> Correct
+
 
 ## Syntaxe de quelques types :
 - Type chaine – **xsd:string** 

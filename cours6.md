@@ -137,6 +137,7 @@ Solution Étudiant 2 :
 
 
 ## Syntaxe de quelques types :
+Pour un espace de non nommé xsd  
 - Type chaine – **xsd:string** 
 - Type booléen – **xsd:boolean** (true / false / 1 / 0)
 - Type numérique 

@@ -1,0 +1,18 @@
+
+9
+	cours1.md,6/7/676cf38657fbf2262818de9dd93d9bcdff33ffac
+:
+
+livre2.xml,8/9/89adb0b818311f9de0b4e2c41f108fcfbc2cf108
+9
+	cours2.md,a/4/a4e036ee6960b0d13c77294c8bb5df5b85f298fd
+9
+	cours4.md,e/8/e84fda591bfc65b9f293780f486a4cca36383372
+=
+cours3-exo.md,e/5/e536272c11b113a486d3c784b07c31646fe6fe71
+=
+cours3-dtd.md,a/8/a832364eaa27fa9b192c5ca8f0ae9b18d6f482d4
+9
+	cours5.md,8/0/80b4b92cc4e191cee002e13b78cf728307735dec
+9
+	cours6.md,f/b/fb3f58a3efe56f8c9d4a2e2291540f86cd157803

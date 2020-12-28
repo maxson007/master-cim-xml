@@ -1,0 +1,25 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/css" href="lettre.css"?>
+
+<lettre>
+    <nom>Dubois</nom>
+    <prenom>Bernard</prenom>
+    <date>12/10/1993</date>
+    <adresse>13, rue Victor Hugo, Paris</adresse>
+    <nom>Mortreux</nom>
+    <prenom>Celine</prenom>
+    <date>02/06/1983</date>
+    <adresse>126, boulevard Henri IV, Lille</adresse>
+    <nom>Bricot</nom>
+    <prenom>Judas</prenom>
+    <date>04/07/1988</date>
+    <adresse>125 Baume Strasse, Franckfurt</adresse>
+    <nom>Martin</nom>
+    <prenom>Christelle</prenom>
+    <date>23/01/1990</date>
+    <adresse>Appt n°3, 13 avenue des capucines, Tours</adresse>
+    <nom>Dubois</nom>
+    <prenom>Paul</prenom>
+    <date>30/12/1991</date>
+    <adresse>1234, Promenade des anglais, Nice</adresse>
+</lettre>

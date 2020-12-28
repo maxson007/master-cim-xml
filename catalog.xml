@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalogue>
+    <cd>
+        <titre>Empire Burlesque</titre>
+        <artiste>Bob Dylan</artiste>
+        <pays>USA</pays>
+        <maison_disque>Columbia</maison_disque>
+        <prix>10.90</prix>
+        <annee>1985</annee>
+    </cd>
+    <cd>
+        <titre>Hide your heart</titre>
+        <artiste>Bonnie Tyler</artiste>
+        <pays>UK</pays>
+        <maison_disque>CBS Records</maison_disque>
+        <prix>9.90</prix>
+        <annee>1988</annee>
+    </cd>
+    <cd>
+        <titre>Greatest Hits</titre>
+        <artiste>Dolly Parton</artiste>
+        <pays>USA</pays>
+        <maison_disque>RCA</maison_disque>
+        <prix>9.90</prix>
+        <annee>1982</annee>
+    </cd>
+</catalogue>

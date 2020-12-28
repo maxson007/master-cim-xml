@@ -18,3 +18,7 @@ livre2.xml,8/9/89adb0b818311f9de0b4e2c41f108fcfbc2cf108
 	cours6.md,f/b/fb3f58a3efe56f8c9d4a2e2291540f86cd157803
 9
 	cours7.md,5/5/55fde4ec2748ca37d2ca44a160e1d93638866322
+9
+	cours8.md,4/e/4ece9cc4439ae868d52c0ece43e4d6a19b7e9b3a
+9
+	cours9.md,2/c/2c87b4469ee9c284bb1e9c36fc24e9590bcc17d3

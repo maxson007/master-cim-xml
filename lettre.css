@@ -1,0 +1,23 @@
+nom {
+    display : block;
+    color:red;
+    font-size:18pt;
+    left : 250px;
+    top: 200px;
+}
+prenom {
+    display : block;
+    color:green;
+    font-size:18pt;
+}
+
+date {
+    display : block;
+    color:blue;
+    font-size:14pt;
+}
+adresse {
+    display : block;
+    color:brown;
+    font-size:14pt;
+}

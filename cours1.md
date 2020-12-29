@@ -1,4 +1,4 @@
-#Cours 1 XML Master CIM VCIEL
+# Cours 1 XML Master CIM VCIEL
 ## Plan du cours XML
 ### II. STRUCTURE D’UN DOCUMENT XML
 ### III. DOCUMENT BIEN FORME/VALIDE
@@ -119,7 +119,7 @@ Exemple 1:
          
 </PoleAudioVis>
 ```
-==> Ce document n'est pas bine formé : il possède deux éléments racine
+==> Ce document n'est pas bien formé : il possède deux éléments racine
 
 Exemple 2
 ```xml

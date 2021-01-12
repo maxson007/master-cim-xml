@@ -230,7 +230,7 @@ Donnez un exemple de XML valide au regard du DTD:
 
 Ma réponse : 
 ```xml
- <?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml version="1.0" encoding="ISO-8859-1"?> 
 <!DOCTYPE distance SYSTEM "Exemple.dtd"> 
 <distance unites="miles" ville_depart="paris" ville_arrivee="borara"/>
 ```

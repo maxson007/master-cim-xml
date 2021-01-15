@@ -1,4 +1,4 @@
-#Cours 2 XML Master CIM VCIEL
+# Cours 2 XML Master CIM VCIEL
 
 ## Rappel 
 Les règles qui doivent être respectées par un documenet XML :

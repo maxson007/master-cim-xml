@@ -112,7 +112,7 @@ Représentation avec des attributs :
 `<date jour = "1" mois="10" année ="2010" />`
 
 # Le DTD
-###Introduction au DTD
+### Introduction au DTD
 
 Dans les exemples que nous avons vu jusqu’à présent,
 on avait aucune contrainte sur la structures des éléments XML
